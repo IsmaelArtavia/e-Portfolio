@@ -119,7 +119,7 @@ const Contact = () => {
 						</li>
 					</ul>
 					<Link to="/">
-						<button className="btn btn-primary">Return</button>
+						<button className="btn btn-primary">Home</button>
 					</Link>
 				</div>
 			</div>

@@ -38,7 +38,10 @@ const Jumbotron = () => {
 				<div className="particle" />
 
 				<h1 className="display-4">Hello, My Name is Ismael Artavia Jimenez</h1>
-				<p className="lead">English student from Skills4Life</p>
+				<p className="lead">
+					English student from Skills4Life <br />
+					Junior FullStack Development
+				</p>
 				<hr className="my-4" />
 				<p>If you want to contact me, press the bottom below</p>
 				<p className="lead">
