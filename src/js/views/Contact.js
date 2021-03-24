@@ -5,8 +5,90 @@ import Particles from "react-tsparticles";
 
 const Contact = () => {
 	return (
-		<div className="container">
-			<div className=" card position-absolute top-100 start-200 translate-middle">
+		<div className="container-fluid big-container">
+			<Particles
+				id="tsparticles"
+				options={{
+					background: {
+						color: {
+							value: "rgb(235, 169, 238);"
+							//rgb(4, 29, 46);
+						}
+					},
+					fpsLimit: 60,
+					interactivity: {
+						detectsOn: "canvas",
+						events: {
+							onClick: {
+								enable: true,
+								mode: "push"
+							},
+							onHover: {
+								enable: true,
+								mode: "repulse"
+							},
+							resize: true
+						},
+						modes: {
+							bubble: {
+								distance: 400,
+								duration: 2,
+								opacity: 0.8,
+								size: 40
+							},
+							push: {
+								quantity: 4
+							},
+							repulse: {
+								distance: 200,
+								duration: 0.4
+							}
+						}
+					},
+					particles: {
+						color: {
+							value: "#ffffff"
+						},
+						links: {
+							color: "#ffffff",
+							distance: 150,
+							enable: true,
+							opacity: 0.5,
+							width: 1
+						},
+						collisions: {
+							enable: true
+						},
+						move: {
+							direction: "none",
+							enable: true,
+							outMode: "bounce",
+							random: false,
+							speed: 3,
+							straight: false
+						},
+						number: {
+							density: {
+								enable: true,
+								value_area: 800
+							},
+							value: 80
+						},
+						opacity: {
+							value: 0.5
+						},
+						shape: {
+							type: "circle"
+						},
+						size: {
+							random: true,
+							value: 5
+						}
+					},
+					detectRetina: true
+				}}
+			/>
+			<div className=" card position-absolute top-100 start-200 translate-middle card-container">
 				<div className="card-header">Junior Full Stack Development</div>
 				<div className="card-body">
 					<h5 className="card-title">Email: ismaelartavia@yahoo.es</h5>
