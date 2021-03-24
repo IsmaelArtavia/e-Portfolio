@@ -45,6 +45,18 @@ const Jumbotron = () => {
 					<Link to="/Contact">
 						<button className="btn btn-primary">Contact</button>
 					</Link>
+					<Link to="/CV">
+						<button className="btn btn-warning">CV</button>
+					</Link>
+					<Link to="/AboutMe">
+						<button className="btn btn-danger">About Me</button>
+					</Link>
+					<Link to="/SWOT">
+						<button className="btn btn-success">SWOT</button>
+					</Link>
+					<Link to="/ActionPlan">
+						<button className="btn btn-dark">Action Plan</button>
+					</Link>
 				</p>
 			</div>
 		</div>

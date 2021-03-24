@@ -12,7 +12,9 @@ import { Footer } from "./component/footer";
 import Jumbotron from "../js/views/jumbotron";
 import CV from "../js/views/CV";
 import Contact from "../js/views/Contact";
-
+import AboutMe from "../js/views/AboutMe";
+import SWOT from "../js/views/SWOT";
+import ActionPlan from "../js/views/ActionPlan";
 //create your first component
 const Layout = () => {
 	//the basename is used when your project is published in a subdirectory and not in the root of the domain
@@ -24,10 +26,10 @@ const Layout = () => {
 			<BrowserRouter basename={basename}>
 				<ScrollToTop>
 					<Navbar />
-					<Jumbotron />
-					<CV />
+
 					<Switch>
 						<Route exact path="/">
+							<Jumbotron />
 							<Home />
 						</Route>
 						<Route exact path="/demo">
@@ -39,6 +41,19 @@ const Layout = () => {
 						<Route exact path="/Contact">
 							<Contact />
 						</Route>
+						<Route exact path="/CV">
+							<CV />
+						</Route>
+						<Route exact path="/AboutMe">
+							<AboutMe />
+						</Route>
+						<Route exact path="/SWOT">
+							<SWOT />
+						</Route>
+						<Route exact path="/ActionPlan">
+							<ActionPlan />
+						</Route>
+
 						<Route>
 							<h1>Not found!</h1>
 						</Route>
