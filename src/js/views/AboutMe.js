@@ -1,4 +1,21 @@
 import React from "react";
+import CSS from "../../img/css.jpg";
+import Descarga from "../../img/descarga.jpg";
+import FixComputer from "../../img/fixcomputer.jpg";
+import Flask from "../../img/flask.jpg";
+import Git from "../../img/git.jpg";
+import Html from "../../img/html.jpg";
+import Js from "../../img/js.jpg";
+import GitHub from "../../img/github.jpg";
+import Linux from "../../img/linux.jpg";
+import Mysql from "../../img/mysql.jpg";
+import Postgresql from "../../img/postgreslql.jpg";
+import React1 from "../../img/react.jpg";
+import Scrum from "../../img/scrum.jpg";
+import Win from "../../img/windows10.jpg";
+import Phython from "../../img/python.jpg";
+import NodeJs from "../../img/nodejs.jpg";
+import "../../styles/aboutMe.scss";
 
 const AboutMe = () => {
 	return (
@@ -69,6 +86,28 @@ const AboutMe = () => {
 					</h5>
 				</div>
 			</a>
+			<br />
+			<p>
+				<h1>Skills:</h1>
+			</p>
+			<p>
+				<img className="img1" src={CSS} />
+				<img className="img1" src={Descarga} />
+				<img className="img1" src={FixComputer} />
+				<img className="img1" src={Flask} />
+				<img className="img1" src={Git} />
+				<img className="img1" src={Js} />
+				<img className="img1" src={Html} />
+
+				<br />
+				<img className="img1" src={Mysql} />
+				<img className="img1" src={Linux} />
+				<img className="img1" src={Postgresql} />
+				<img className="img1" src={React1} />
+				<img className="img1" src={Scrum} />
+				<img className="img1" src={Win} />
+				<img className="img1" src={Phython} />
+			</p>
 		</div>
 	);
 };

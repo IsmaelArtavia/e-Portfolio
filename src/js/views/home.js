@@ -6,7 +6,7 @@ import "../../styles/home.scss";
 export const Home = () => (
 	<div className="text-center mt-5">
 		<p>
-			<img src={fullStack} />
+			<img className="imagen" src={fullStack} />
 		</p>
 	</div>
 );

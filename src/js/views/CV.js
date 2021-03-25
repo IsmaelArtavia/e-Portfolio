@@ -5,7 +5,7 @@ const CV = () => {
 	return (
 		<div className="container">
 			<p>
-				<img src={ismaelResume} />
+				<img className="resume" src={ismaelResume} />
 			</p>
 		</div>
 	);
