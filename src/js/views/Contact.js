@@ -89,7 +89,7 @@ const Contact = () => {
 				}}
 			/>
 
-			<div className=" card position-absolute top-100 start-200 translate-middle card-container ">
+			<div className=" Contacto position-absolute top-100 start-200 translate-middle card-container ">
 				<div className="card-header">Junior Full Stack Development</div>
 				<div className="card-body">
 					<h5 className="card-title">Email: ismaelartavia@yahoo.es</h5>

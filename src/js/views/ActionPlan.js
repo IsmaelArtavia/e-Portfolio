@@ -8,7 +8,7 @@ const ActionPlan = () => {
 			<table className="table">
 				<thead>
 					<tr>
-						<th scope="col">No pain, no gain</th>
+						<th scope="col">SMART</th>
 						<th scope="col">Goal in Mind</th>
 						<th scope="col">Speak English</th>
 					</tr>
