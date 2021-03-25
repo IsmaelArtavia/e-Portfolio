@@ -57,6 +57,13 @@ const ActionPlan = () => {
 					</tr>
 				</tbody>
 			</table>
+
+			<a
+				target="_blank"
+				rel="noopener noreferrer"
+				href="https://www.ef.com/wwen/english-resources/english-idioms/">
+				English idioms Link
+			</a>
 		</div>
 	);
 };
