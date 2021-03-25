@@ -19,7 +19,7 @@ const ActionPlan = () => {
 							<i className="fab fa-stripe-s" />
 						</th>
 						<th scope="row">Is it Specific?</th>
-						<td>Hit the nail on the head</td>
+						<td>Hit the nail on the head (yes, Study English)</td>
 					</tr>
 					<tr>
 						<th scope="row">
@@ -27,33 +27,33 @@ const ActionPlan = () => {
 							<strong>M</strong>
 						</th>
 						<td>Is it Measurable?</td>
-						<td>You can say that again</td>
+						<td>You can say that again (yes,every month)</td>
 					</tr>
 					<tr>
 						<th scope="row">
 							<i className="fab fa-autoprefixer" />
 						</th>
 						<td>Is it Attainable?</td>
-						<td>Yes, No pain, no gain</td>
+						<td>Yes, No pain, no gain (yes,Skill4Life)</td>
 					</tr>
 					<tr>
 						<th scope="row">
 							<i className="fas fa-registered" />
 						</th>
 						<td>Is it Relevant?</td>
-						<td>The horse of course</td>
+						<td>The horse of course (yes, help me to get a job)</td>
 					</tr>
 					<tr>
 						<th scope="row">
 							<i className="fab fa-tumblr" />
 						</th>
 						<td>It is Timely?</td>
-						<td>The best thing since sliced bread</td>
+						<td>The best thing since sliced bread (yes I will finish this year)</td>
 					</tr>
 					<tr>
 						<th scope="row">SMART Goal</th>
 						<td>Become a Bilingual</td>
-						<td>As right as rain</td>
+						<td>As right as rain (excellent)</td>
 					</tr>
 				</tbody>
 			</table>

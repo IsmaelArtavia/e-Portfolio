@@ -28,14 +28,14 @@ const AboutMe = () => {
 			<a href="#" className="list-group-item list-group-item-action list-group-item-danger">
 				<div className="d-flex w-100 justify-content-between">
 					<h5 className="mb-1">
-						I am a computer engineering student, my hunger for knowledge is so big, I need to know more and
-						more about technology, internet, programming and logic. I like math and computers, ride my bike
-						and logic video games. I am junior full stack development, more than 5 years experience in IT, I
-						worked resolving problems, I like to know how the things works and get the solution to different
-						problems. Not only that, but I taught math for more than 15 years, I love working with numbers,
-						resolved logical problems and teaching. My favorite part of programming is front end, because I
-						can see it, I need to see the webpage, do experiments with the code, learn new technologies is
-						my slogan, never stop even if you are thinking.
+						I am a computer engineering student and Math teacher, my hunger for knowledge is so big, I need
+						to know more and more about technology, internet, programming and logic. I like math and
+						computers, ride my bike and logic video games. I am junior full stack development, more than 5
+						years experience in IT, I worked resolving problems, I like to know how the things works and get
+						the solution to different problems. Not only that, but I taught math for more than 15 years, I
+						love working with numbers, resolved logical problems and teaching. My favorite part of
+						programming is front end, because I can see it, I need to see the webpage, do experiments with
+						the code, learn new technologies is my slogan, never stop even if you are thinking.
 					</h5>
 				</div>
 			</a>

@@ -17,7 +17,7 @@ const SWOT = () => {
 								<div className="card__title card__title--1">
 									<i className="fas fa-dumbbell" />
 
-									<h4 className="card__heading">Strengths</h4>
+									<h3 className="card__heading">Strengths</h3>
 								</div>
 
 								<div className="card__details">
@@ -33,7 +33,7 @@ const SWOT = () => {
 								<div className="card__cta">
 									<div className="card__price-box">
 										<i className="fas fa-dumbbell" />
-										<h4 className="card__heading">Strengths</h4>
+										<h3 className="card__heading">Strengths</h3>
 										<p className="card__price-only">
 											<h3>
 												Perseverance <br />
@@ -60,7 +60,7 @@ const SWOT = () => {
 							<div className="card__side card__side--front-2">
 								<div className="card__title card__title--2">
 									<i className="fas fa-unlink" />
-									<h4 className="card__heading"> WEAKNESSES</h4>
+									<h3 className="card__heading"> WEAKNESSES</h3>
 								</div>
 
 								<div className="card__details">
@@ -76,7 +76,7 @@ const SWOT = () => {
 								<div className="card__cta">
 									<div className="card__price-box">
 										<i className="fas fa-unlink" />
-										<h4 className="card__heading">WEAKNESSES</h4>
+										<h3 className="card__heading">WEAKNESSES</h3>
 										<p className="card__price-only">
 											<h3>
 												Perseverance <br />
@@ -111,7 +111,7 @@ const SWOT = () => {
 							<div className="card__side card__side--front-1">
 								<div className="card__title card__title--1">
 									<i className="fas fa-paper-plane" />
-									<h4 className="card__heading">Opportunities</h4>
+									<h3 className="card__heading">Opportunities</h3>
 								</div>
 
 								<div className="card__details">
@@ -126,7 +126,7 @@ const SWOT = () => {
 								<div className="card__cta">
 									<div className="card__price-box">
 										<i className="fas fa-paper-plane" />
-										<h4 className="card__heading">Opportunities</h4>
+										<h3 className="card__heading">Opportunities</h3>
 										<p className="card__price-only">
 											<h3>
 												Second language <br />
@@ -171,7 +171,7 @@ const SWOT = () => {
 								<div className="card__cta">
 									<div className="card__price-box">
 										<i className="fas fa-bolt" />
-										<h4 className="card__heading">Threats</h4>
+										<h3 className="card__heading">Threats</h3>
 										<p className="card__price-value">
 											<h3>
 												Third language <br />
