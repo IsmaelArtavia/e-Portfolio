@@ -1,5 +1,6 @@
 import React from "react";
 import "../..//styles/SWOT.scss";
+import { Link } from "react-router-dom";
 
 const SWOT = () => {
 	return (
@@ -33,18 +34,22 @@ const SWOT = () => {
 									<div className="card__price-box">
 										<i className="fas fa-dumbbell" />
 										<h4 className="card__heading">Strengths</h4>
-
-										<h3>
-											Perseverance <br />
-											Curiosity and willingness to learn <br />
-											Teamwork <br />
-											Analytical thinking <br />
-											Honesty <br />
-											Commitment <br />
-											Responsibility <br />
-											Discipline <br />
-										</h3>
+										<p className="card__price-only">
+											<h3>
+												Perseverance <br />
+												Curiosity and willingness to learn <br />
+												Teamwork <br />
+												Analytical thinking <br />
+												Honesty <br />
+												Commitment <br />
+												Responsibility <br />
+												Discipline <br />
+											</h3>
+										</p>
 									</div>
+									<Link to="/">
+										<button className="btn btn-primary">Go Home</button>
+									</Link>
 								</div>
 							</div>
 						</div>
@@ -85,6 +90,9 @@ const SWOT = () => {
 											</h3>
 										</p>
 									</div>
+									<Link to="/">
+										<button className="btn btn-primary">Go Home</button>
+									</Link>
 								</div>
 							</div>
 						</div>
@@ -136,6 +144,9 @@ const SWOT = () => {
 											</h3>
 										</p>
 									</div>
+									<Link to="/">
+										<button className="btn btn-primary">Go Home</button>
+									</Link>
 								</div>
 							</div>
 						</div>
@@ -176,6 +187,9 @@ const SWOT = () => {
 											</h3>
 										</p>
 									</div>
+									<Link to="/">
+										<button className="btn btn-primary">Go Home</button>
+									</Link>
 								</div>
 							</div>
 						</div>
