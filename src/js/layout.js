@@ -10,6 +10,7 @@ import injectContext from "./store/appContext";
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
 import Jumbotron from "../js/views/jumbotron";
+import Principal from "../js/views/Principal";
 import CV from "../js/views/CV";
 import Contact from "../js/views/Contact";
 import AboutMe from "../js/views/AboutMe";
@@ -31,6 +32,7 @@ const Layout = () => {
 						<Route exact path="/">
 							<Jumbotron />
 							<Home />
+							<Principal></Principal>
 						</Route>
 						<Route exact path="/demo">
 							<Demo />
