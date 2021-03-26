@@ -12,9 +12,9 @@ const ActionPlan = () => {
 				<div className="circle small shade5"></div>
 			</div>
 			<h1>SMART Goal WorkSheet</h1>
-			<table className="table">
+			<table className="table table-hover ">
 				<thead>
-					<tr>
+					<tr className="table-warning">
 						<th scope="col">SMART</th>
 						<th scope="col">Goal in Mind</th>
 						<th scope="col">Speak English</th>
@@ -22,45 +22,51 @@ const ActionPlan = () => {
 				</thead>
 				<tbody>
 					<tr>
-						<th>
+						<th className="table-danger">
 							<i className="fab fa-stripe-s" />
 						</th>
-						<th scope="row">Is it Specific?</th>
-						<td>Hit the nail on the head (yes, Study English)</td>
+						<th scope="row" className="table-primary">
+							Is it Specific?
+						</th>
+						<td className="table-success">Hit the nail on the head (yes, Study English)</td>
 					</tr>
 					<tr>
-						<th scope="row">
+						<th scope="row" className="table-success">
 							{" "}
 							<strong>M</strong>
 						</th>
-						<td>Is it Measurable?</td>
-						<td>You can say that again (yes,every month)</td>
+						<td className="table-danger">Is it Measurable?</td>
+						<td className="table-primary">You can say that again (yes,every month)</td>
 					</tr>
 					<tr>
-						<th scope="row">
+						<th scope="row" className="table-primary">
 							<i className="fab fa-autoprefixer" />
 						</th>
-						<td>Is it Attainable?</td>
-						<td>Yes, No pain, no gain (yes,Skill4Life)</td>
+						<td className="table-success">Is it Attainable?</td>
+						<td className="table-danger">Yes, No pain, no gain (yes,Skill4Life)</td>
 					</tr>
 					<tr>
-						<th scope="row">
+						<th scope="row" className="table-danger">
 							<i className="fas fa-registered" />
 						</th>
-						<td>Is it Relevant?</td>
-						<td>The horse of course (yes, help me to get a job)</td>
+						<td className="table-primary">Is it Relevant?</td>
+						<td className="table-success">The horse of course (yes, help me to get a job)</td>
 					</tr>
 					<tr>
-						<th scope="row">
+						<th scope="row" className="table-success">
 							<i className="fab fa-tumblr" />
 						</th>
-						<td>It is Timely?</td>
-						<td>The best thing since sliced bread (yes I will finish this year)</td>
+						<td className="table-danger">It is Timely?</td>
+						<td className="table-primary">
+							The best thing since sliced bread (yes I will finish this year)
+						</td>
 					</tr>
 					<tr>
-						<th scope="row">SMART Goal</th>
-						<td>Become a Bilingual</td>
-						<td>As right as rain (excellent)</td>
+						<th scope="row" className="table-primary">
+							SMART Goal
+						</th>
+						<td className="table-success">Become a Bilingual</td>
+						<td className="table-danger">As right as rain (excellent)</td>
 					</tr>
 				</tbody>
 			</table>
