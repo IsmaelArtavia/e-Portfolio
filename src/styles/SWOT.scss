@@ -58,7 +58,7 @@
   line-height: 1;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-  color: #eee;
+  color: rgb(231, 68, 68);
 }
 
 
@@ -80,11 +80,11 @@
           perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
-  height: 52rem;
+  height: 40rem;
 }
 
 .card__side {
-  height: 45rem;
+  height: 40rem;
   -webkit-transition: all 0.8s ease;
   transition: all 0.8s ease;
   position: absolute;
@@ -175,7 +175,7 @@
 }
 
 .card__heading {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 300;
   text-transform: uppercase;
   text-align: center;
@@ -263,4 +263,3 @@
 .row .col-1-of-3 {
   width: calc((100% - 2 * 6rem) / 3);
 }
-

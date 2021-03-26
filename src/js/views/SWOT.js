@@ -79,14 +79,18 @@ const SWOT = () => {
 										<h3 className="card__heading">WEAKNESSES</h3>
 										<p className="card__price-only">
 											<h3>
-												Perseverance <br />
-												Curiosity and willingness to learn <br />
-												Teamwork <br />
-												Analytical thinking <br />
-												Honesty <br />
-												Commitment <br />
-												Responsibility <br />
-												Discipline <br />
+												Impatience <br />
+												Fear of the future <br />
+												Pessimism <br />
+												Unsafety
+												<br />
+												Inferiority complex <br />
+												Incomplete studies <br />
+												Destructive self-criticism
+												<br />
+												Speak English
+												<br />
+												Soft skills
 											</h3>
 										</p>
 									</div>
@@ -141,6 +145,7 @@ const SWOT = () => {
 												<br />
 												Learn new things (cook) <br />
 												Adapt itself <br />
+												Skills4Life
 											</h3>
 										</p>
 									</div>
@@ -184,6 +189,7 @@ const SWOT = () => {
 												Soft skills <br />
 												Knowledge update <br />
 												Sell me as a programmer <br />
+												University complete
 											</h3>
 										</p>
 									</div>
