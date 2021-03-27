@@ -36,6 +36,36 @@ const Jumbotron = () => {
 				<div className="particle" />
 				<div className="particle" />
 				<div className="particle" />
+				<div className="particle" />
+				<div className="particle" />
+				<div className="particle" />
+				<div className="particle" />
+				<div className="particle" />
+				<div className="particle" />
+				<div className="particle" />
+				<div className="particle" />
+				<div className="particle" />
+				<div className="particle" />
+				<div className="particle" />
+				<div className="particle" />
+				<div className="particle" />
+				<div className="particle" />
+				<div className="particle" />
+				<div className="particle" />
+				<div className="particle" />
+				<div className="particle" />
+				<div className="particle" />
+				<div className="particle" />
+				<div className="particle" />
+				<div className="particle" />
+				<div className="particle" />
+				<div className="particle" />
+				<div className="particle" />
+				<div className="particle" />
+				<div className="particle" />
+				<div className="particle" />
+				<div className="particle" />
+				<div className="particle" />
 
 				<h1 className="display-4">Hello, My Name is Ismael Artavia Jimenez</h1>
 				<p className="lead">
@@ -59,6 +89,9 @@ const Jumbotron = () => {
 					</Link>
 					<Link to="/ActionPlan">
 						<button className="btn btn-dark">Action Plan</button>
+					</Link>
+					<Link to="/animation">
+						<button className="btn btn-info">Animation</button>
 					</Link>
 				</p>
 			</div>

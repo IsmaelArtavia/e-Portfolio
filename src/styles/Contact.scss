@@ -101,6 +101,26 @@ ul li:nth-child(4):hover span{
     top: 25%;
     left: 40%;
     background-color:white;
+   
+  margin: 1rem;
+  padding: 1rem;
+  border: 2px solid #ccc;
+  /* IMPORTANTE */
+
+    border-radius: 25px;
+       
+      
+      
     
+}
+
+
+@media (max-width: 420px){
+}
+
+.container-fluid{
+  
+    height: 100%;
+   width:100%;
 }
 

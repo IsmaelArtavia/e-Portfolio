@@ -16,6 +16,7 @@ import Contact from "../js/views/Contact";
 import AboutMe from "../js/views/AboutMe";
 import SWOT from "../js/views/SWOT";
 import ActionPlan from "../js/views/ActionPlan";
+import Animation from "../js/views/animation";
 //create your first component
 const Layout = () => {
 	//the basename is used when your project is published in a subdirectory and not in the root of the domain
@@ -55,12 +56,14 @@ const Layout = () => {
 						<Route exact path="/ActionPlan">
 							<ActionPlan />
 						</Route>
+						<Route exact path="/animation">
+							<Animation />
+						</Route>
 
 						<Route>
 							<h1>Not found!</h1>
 						</Route>
 					</Switch>
-					<Footer />
 				</ScrollToTop>
 			</BrowserRouter>
 		</div>
