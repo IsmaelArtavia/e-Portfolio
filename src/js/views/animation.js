@@ -168,6 +168,20 @@ const Animation = () => {
 						<div className="spinner-border spinner-border-sm text-light" role="status">
 							<div className="spinner-grow spinner-grow-sm text-light" role="status"></div>
 						</div>
+						<div className="spinner-border text-success" role="status">
+							<div className="spinner-grow text-success" role="status">
+								<div className="spinner-border spinner-border-sm text-light" role="status"></div>
+								<div className="spinner-border text-info" role="status">
+									<div className="spinner-grow text-danger" role="status"></div>
+								</div>
+							</div>
+							<div className="spinner-border spinner-border-sm text-warning" role="status">
+								<div className="spinner-grow spinner-grow-sm text-dark" role="status"></div>{" "}
+								<div className="spinner-border text-primary" role="status"></div>
+							</div>
+							<div className="spinner-grow text-danger" role="status"></div>
+							<div className="spinner-grow text-secondary" role="status"></div>
+						</div>
 					</div>
 				</div>
 			</div>
