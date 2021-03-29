@@ -47,8 +47,8 @@ const SWOT = () => {
 											</h3>
 										</p>
 									</div>
-									<Link to="/">
-										<button className="btn btn-primary">Go Home</button>
+									<Link to="/Strengths">
+										<button className="btn btn-primary">Go Strengths</button>
 									</Link>
 								</div>
 							</div>
@@ -94,8 +94,8 @@ const SWOT = () => {
 											</h3>
 										</p>
 									</div>
-									<Link to="/">
-										<button className="btn btn-primary">Go Home</button>
+									<Link to="/Waknesses">
+										<button className="btn btn-primary">Go to Weaknesses</button>
 									</Link>
 								</div>
 							</div>
