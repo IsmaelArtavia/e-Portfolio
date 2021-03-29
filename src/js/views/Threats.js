@@ -4,7 +4,7 @@ const Threats = () => {
 	return (
 		<div>
 			<h1>
-				Opportunities <i className="fas fa-bolt" />
+				Threats <i className="fas fa-bolt" />
 			</h1>
 			<br></br> <br></br>
 			<p>
