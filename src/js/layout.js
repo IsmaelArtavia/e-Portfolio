@@ -19,6 +19,8 @@ import ActionPlan from "../js/views/ActionPlan";
 import Animation from "../js/views/animation";
 import Strenghts from "../js/views/Strengths";
 import Weaknesses from "../js/views/Waknesses";
+import Opportunities from "../js/views/Opportunities";
+import Threats from "../js/views/Threats";
 //create your first component
 const Layout = () => {
 	//the basename is used when your project is published in a subdirectory and not in the root of the domain
@@ -66,6 +68,12 @@ const Layout = () => {
 						</Route>
 						<Route exact path="/Waknesses">
 							<Weaknesses />
+						</Route>
+						<Route exact path="/Opportunities">
+							<Opportunities />
+						</Route>
+						<Route exact path="/Threats">
+							<Threats />
 						</Route>
 
 						<Route>
