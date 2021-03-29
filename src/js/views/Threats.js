@@ -1,8 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "../../styles/Threats.scss";
 const Threats = () => {
 	return (
-		<div>
+		<div className="Threats">
 			<h1>
 				Threats <i className="fas fa-bolt" />
 			</h1>

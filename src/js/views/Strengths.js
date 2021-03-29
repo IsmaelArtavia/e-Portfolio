@@ -1,9 +1,10 @@
 import React from "react";
+import "../../styles/Strengths.scss";
 
 import { Link } from "react-router-dom";
 const Strengths = () => {
 	return (
-		<div>
+		<div className="Strenghs">
 			<h1>
 				Strengths <i className="fas fa-dumbbell" />
 			</h1>

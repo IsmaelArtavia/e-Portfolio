@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "../../styles/Opportunities.scss";
 
 const Opportunities = () => {
 	return (
-		<div>
+		<div className="Opportunities">
 			<h1>
 				Opportunities <i className="fas fa-paper-plane" />
 			</h1>

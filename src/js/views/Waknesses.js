@@ -1,9 +1,10 @@
 import React from "react";
+import "../../styles/Weaknesses.scss";
 
 import { Link } from "react-router-dom";
 const Waknesses = () => {
 	return (
-		<div>
+		<div className="Weaknesses">
 			<h1>
 				Weaknesses <i className="fas fa-unlink" />
 			</h1>
